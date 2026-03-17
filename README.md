@@ -2,7 +2,7 @@
 
 This is the official repository for the paper: **"Optimal Environment Search System for Maximizing Crop Growth in Smart Greenhouses"**.
 
-This project provides a framework to find the optimal environmental conditions (Temperature, Humidity, $CO_2$, etc.) to maximize the growth of tomato plants in smart greenhouse environments using a data-driven search system.
+This project provides a framework to find the optimal environmental conditions (Temperature, Humidity, CO2, etc.) to maximize the growth of tomato plants in smart greenhouse environments using a data-driven search system.
 
 ![](./figures/structure.png)
 
@@ -31,13 +31,14 @@ The experimental evaluation was conducted using a dataset collected from real-wo
 
   - The resulting daily-aligned dataset was used for training and search evaluation.
 
+---
 
 # Code Explanation
 The core logic of the system is integrated into a single execution environment for transparency and reproducibility:
 
 - main.ipynb: This is the primary file containing all configurations. It covers the full pipeline:
 
-  - Data loading and 1st-data preprocessing (Upsampling/Downsampling).
+  - Data loading and data preprocessing (Upsampling/Downsampling).
 
   - Model training for growth prediction.
 
